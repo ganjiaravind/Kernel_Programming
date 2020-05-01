@@ -1,5 +1,5 @@
 
-obj-m := prog_1.o
+obj-m := prog_1.o prog_2.o
 
 KOBJ := /lib/modules/$(shell uname -r)/build/
 
